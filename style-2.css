@@ -90,15 +90,21 @@
    font-size: 0.7em;
    margin: 0;
 }
- .popup .main-content-1 div a, .popup .main-content-2 div a {
+ .popup .main-content-1 div .more a, .popup .main-content-2 div .more a {
    font-size: 0.7em;
    color: #0070c9;
 }
- .popup .main-content-1 div a:after, .popup .main-content-2 div a:after {
+ .popup .main-content-1 div .more a:after, .popup .main-content-2 div .more a:after {
    content: "›";
    font-size: 1.1em;
    padding-left: 10px;
 }
+
+.link {
+  color: #00f;
+  text-decoration: underline;
+}
+
  ul {
    margin: 0;
    padding: 0;
